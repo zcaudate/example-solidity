@@ -1,0 +1,4 @@
+FROM clojure:temurin-22-lein-jammy
+
+# Extra tools
+RUN apt-get update && apt-get install -y gpg curl node.js
